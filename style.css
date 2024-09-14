@@ -14,6 +14,18 @@ html{
 
 header{
     background-color: rgba(102, 20, 196, 0.356);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo img{
+    border-radius: 50%;
+    border: 1px solid green;
 }
 
 nav{
@@ -21,11 +33,18 @@ nav{
 }
 
 main{
-    background-color: red;
+    background-color: rgb(102, 255, 0);
 }
 
 footer{
     background-color: gray;
+    padding: 10px;
+    line-height: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
 }
 
 img{
@@ -53,4 +72,59 @@ p{
     margin: 40px auto;
     /* outline: 7px double blue; */
     box-shadow: 8px 8px 8px 8px green;
+}
+
+.color{
+    padding: auto;
+    border: 6px solid violet;
+    margin: 40px auto;
+}
+
+h1{
+    color: blueviolet;
+    text-shadow: 9px 9px 9px rgb(26, 16, 16);
+    padding: 10px;
+}
+
+h1{
+    color: chocolate;
+}
+
+h2{
+    color: rgb(16, 99, 146);
+}
+
+section > h2{
+    color: aquamarine;
+    /* > hijo directo de */
+}
+
+.imagen + p{
+    color: rgb(110, 13, 29);
+}
+
+.bloque img{
+    width: 250px;
+    padding: 30px;
+    display: block;
+}
+
+
+nav{
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    background-color: black;
+    border-radius: 30px;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: rgb(116, 65, 3);
 }
